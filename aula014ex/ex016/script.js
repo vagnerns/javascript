@@ -13,10 +13,10 @@ function contar() {
         let f = Number(fim.value)
         let p = Number(passo.value)
         if (p <= 0) {
-            window.alert = ('Passo invalido! Considerando passo 1')
+            window.alert = ('Passo invalido! Considerando PASSO 1')
             p = 1
         }
-        if (1 < f) {
+        if (i < f) {
             // Contagem crescente
             for(let c = i; c <= f; c += p) {
                 res.innerHTML += ` ${c} \u{1f449}`
